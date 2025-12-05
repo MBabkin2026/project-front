@@ -1,0 +1,47 @@
+th, td{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th {
+    background-color: #ecf0f1;
+}
+
+button {
+    background-color: #3498db;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#paging_buttons button {
+    margin: 2px;
+    padding: 5px 10px;
+}
+
+#paging_buttons button:focus {
+    background-color: #e74c3c;
+    color: #fff;
+}
